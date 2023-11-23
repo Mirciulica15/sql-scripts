@@ -1,0 +1,4 @@
+CREATE USER readwriter WITH PASSWORD = "parolamea123!"
+GRANT SELECT, INSERT, UPDATE, DELETE ON SCHEMA::dbo TO readwriter
+GO
+QUIT
